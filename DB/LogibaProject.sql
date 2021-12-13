@@ -1,0 +1,72 @@
+--USE master
+--GO
+
+--CREATE DATABASE LogibaProject
+
+--GO
+
+USE LogibaProject
+
+CREATE TABLE Admins
+(
+	id			INT PRIMARY KEY IDENTITY(1,1),
+	FullName	VARCHAR(250) NOT NULL,
+	UserName	VARCHAR(250) NOT NULL,
+	[Password]	VARCHAR(250) NOT NULL 
+)
+
+CREATE TABLE Works
+(
+	id				INT PRIMARY KEY IDENTITY(1,1),
+	[Name]			VARCHAR(150) NOT NULL,
+	[No]			INT NOT NULL,
+	Material		VARCHAR(250) NOT NULL,
+	[Description]	VARCHAR(300) NOT NULL,
+	Quantity		INT NOT NULL,
+	StartDate		DATETIME DEFAULT getdate(),
+	EndDate			DATETIME,
+	[FileName]		VARCHAR(150),
+	[Status]		INT NOT NULL
+)
+
+CREATE TABLE Users
+(
+	id			INT PRIMARY KEY IDENTITY(1,1),
+	FullName	VARCHAR(250) NOT NULL,
+	UserName	VARCHAR(100) NOT NULL,
+	[Password]	VARCHAR(100) NOT NULL
+)
+
+CREATE TABLE Groups
+(
+	id		INT PRIMARY KEY IDENTITY(1,1),
+	[Name]	VARCHAR(200) NOT NULL
+)
+
+CREATE TABLE MapGroupUser
+(
+	id		INT PRIMARY KEY IDENTITY(1,1),
+	GroupId INT NOT NULL,
+	UserId	INT NOT NULL,
+
+	CONSTRAINT group_map FOREIGN KEY(GroupId)
+	REFERENCES Groups(id)
+	ON DELETE CASCADE,
+
+	CONSTRAINT user_group_map FOREIGN KEY(UserId)
+	REFERENCES Users(id)
+	ON DELETE CASCADE
+)
+
+CREATE TABLE MapWork
+(
+	id		INT PRIMARY KEY IDENTITY(1,1),
+	WorkId	INT NOT NULL,
+	UserId	INT,
+	GroupId INT,
+
+	CONSTRAINT work_map FOREIGN KEY(WorkId)
+	REFERENCES Works(id)
+	ON DELETE CASCADE
+)
+

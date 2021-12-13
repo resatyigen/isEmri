@@ -1,0 +1,14 @@
+c:\users\resat\documents\visual studio 2017\Projects\LogibaProject\LogibaProject.Entities\bin\Debug\LogibaProject.Entities.dll.config
+c:\users\resat\documents\visual studio 2017\Projects\LogibaProject\LogibaProject.Entities\bin\Debug\LogibaProject.Entities.dll
+c:\users\resat\documents\visual studio 2017\Projects\LogibaProject\LogibaProject.Entities\bin\Debug\LogibaProject.Entities.pdb
+c:\users\resat\documents\visual studio 2017\Projects\LogibaProject\LogibaProject.Entities\bin\Debug\EntityFramework.dll
+c:\users\resat\documents\visual studio 2017\Projects\LogibaProject\LogibaProject.Entities\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\resat\documents\visual studio 2017\Projects\LogibaProject\LogibaProject.Entities\bin\Debug\LogibaProject.Core.dll
+c:\users\resat\documents\visual studio 2017\Projects\LogibaProject\LogibaProject.Entities\bin\Debug\LogibaProject.Core.pdb
+c:\users\resat\documents\visual studio 2017\Projects\LogibaProject\LogibaProject.Entities\bin\Debug\LogibaProject.Core.dll.config
+c:\users\resat\documents\visual studio 2017\Projects\LogibaProject\LogibaProject.Entities\bin\Debug\EntityFramework.xml
+c:\users\resat\documents\visual studio 2017\Projects\LogibaProject\LogibaProject.Entities\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\resat\documents\visual studio 2017\Projects\LogibaProject\LogibaProject.Entities\obj\Debug\LogibaProject.Entities.csprojResolveAssemblyReference.cache
+c:\users\resat\documents\visual studio 2017\Projects\LogibaProject\LogibaProject.Entities\obj\Debug\LogibaProject.Entities.csproj.CoreCompileInputs.cache
+c:\users\resat\documents\visual studio 2017\Projects\LogibaProject\LogibaProject.Entities\obj\Debug\LogibaProject.Entities.dll
+c:\users\resat\documents\visual studio 2017\Projects\LogibaProject\LogibaProject.Entities\obj\Debug\LogibaProject.Entities.pdb
